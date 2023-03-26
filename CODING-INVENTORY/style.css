@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(170, 29, 226);
+    background-image: linear-gradient(rgb(15, 36, 219), rgb(47, 102, 221));
+    background-attachment: fixed;
+}
+
+.title{
+    width: fit-content;
+    margin: auto;
+}
+
+h4{
+    padding-top: 30px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+img{
+    display: block;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 170px;
+    height: 170px;
+}
+
+input[type="username"], input[type="password"]{
+    width: 330px;
+    margin: auto;
+    text-align: center;
+}
+
+input[type="username"]::placeholder, input[type="password"]::placeholder{
+    text-align: center;
+}
+
+input:focus::placeholder {
+    color: transparent;
+  }
+
+.border{
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-radius: 24px;
+}
+
+form{
+    width: auto;
+    padding: 20px;
+}
+
+.display-4{
+    font-weight: bold;
+}

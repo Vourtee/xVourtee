@@ -1,0 +1,55 @@
+body{
+    background: white;
+}
+
+#side_nav{
+    background: rgb(0, 0, 0);
+    min-width: 250px;
+    max-width: 250px;
+}
+
+.content{
+    height: 800px;
+    width: 100%;
+}
+
+hr.h-color{
+    background: white;
+    opacity: 100%;
+}
+
+.sidebar li.active{
+    background: white;
+    border-radius: 8px;
+}
+
+.sidebar li.active a, .sidebar li.active a:hover{
+    color: black;
+}
+
+.sidebar li a{
+    color: white;
+}
+
+@media(max-width: 767px){
+    #side-nav.active{
+        margin-left: 0;
+    }
+}
+
+img{
+    display: block;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: 10px;
+    width: 80px;
+    height: 65px;
+}
+
+.konten{
+    background-color: white;
+    width: 100%;
+    height: 1116px;
+    max-width: 1116px;
+    margin-top: 20px;
+}
